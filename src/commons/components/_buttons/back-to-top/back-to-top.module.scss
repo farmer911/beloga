@@ -1,0 +1,13 @@
+.back-to-top {
+    opacity: 1!important;
+    pointer-events: auto!important;
+    transform: none!important;
+    -webkit-transform: none!important;
+}
+
+.back-to-top:hover {
+    cursor: pointer;
+    transform: translate3d(0, -5px, 0)!important;
+    -webkit-transform: translate3d(0, -5px, 0)!important;
+    -moz-transform: translate3d(0, -5px, 0)!important;
+}

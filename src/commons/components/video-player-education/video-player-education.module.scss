@@ -1,0 +1,22 @@
+.video-fixed-layout {
+  width: 100%;
+  height: '-webkit-fill-available';
+}
+
+.iframe-fix-height {
+  min-height: 100px !important;
+}
+
+.logo-beloga {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+}
+.logo-video {
+  display: block;
+  padding: 0.5rem 1rem;
+  padding-left: 0;
+  width: 20%;
+  height: 30%;
+}

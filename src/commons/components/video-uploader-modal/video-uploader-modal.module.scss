@@ -1,0 +1,30 @@
+.over-flow {
+  overflow-y: auto;
+  height: 300px;
+}
+
+.icon-upload {
+  font-size: 50px;
+  color: #bbb;
+}
+
+.border-contain {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px dashed #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.none-focus {
+  &:focus {
+    outline: none !important;
+  }
+}
+
+p {
+  margin: 0;
+}

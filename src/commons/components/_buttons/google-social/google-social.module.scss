@@ -1,0 +1,32 @@
+.custom-google-button {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background-color: #dd4b39!important;
+    font-size: 11px !important;
+    border-radius: 6px !important;
+    margin: 20px 0;
+}
+
+.custom-google-button>div {
+    display: none;
+}
+
+.custom-google-button>span {
+    width: 100%;
+    text-align: center;
+    font-size: 14px!important;
+    padding: 0!important;
+}
+
+.custom-google-button i {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    border-radius: 6px 0 0 6px;
+    font-size: 16px;
+    line-height: 41px;
+}

@@ -1,0 +1,25 @@
+$color:#fff;
+$timing:.3s;
+
+.dropdown-el {
+  z-index: 1000;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  display: inline-block;
+  cursor: pointer;
+  color: #444;
+  margin-top: 1px;
+  outline: none;
+  border-radius: 1em;
+  background-color: mix($color,#fff,25%);
+  
+  transition: $timing all ease-in-out;  
+  
+  &.expanded {
+    background: #fff;
+    border-radius: .25em;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
+  }
+}

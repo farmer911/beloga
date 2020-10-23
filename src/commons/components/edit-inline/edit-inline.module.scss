@@ -1,0 +1,35 @@
+@import '../../../styles/variables.module.scss';
+
+.button {
+  font-size: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: $main-color !important;
+  }
+  transition: 0.3s;
+}
+
+.input {
+  height: 25px;
+  border-radius: 0 !important;
+}
+
+.button-wrapper {
+  line-height: 1.3;
+}
+
+.icon-style {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.space-left {
+  margin-left: 15px;
+}

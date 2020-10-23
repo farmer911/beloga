@@ -1,0 +1,48 @@
+@import '../../../styles/variables.module.scss';
+
+/*! -- Stack Wizard -- */
+.wizard {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.wizard.active {
+  opacity: 1;
+}
+
+.wizard > .steps > ul {
+  text-align: center;
+}
+
+/*
+    Common 
+*/
+
+.wizard,
+.tabcontrol {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wizard a,
+.tabcontrol a {
+  outline: 0;
+}
+
+.wizard ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.wizard ul > li {
+  display: block;
+  padding: 0;
+}
+
+/* Accessibility */
+.wizard > .steps .current-info {
+  position: absolute;
+  left: -999em;
+}

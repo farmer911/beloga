@@ -1,0 +1,105 @@
+.search-item-container{
+    min-height: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+}
+.search-item-container:hover{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #fffce0f1;
+    cursor: pointer;
+}
+.search-item-container-suggest{
+    background-color: #ffffff;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.search-item-container-suggest:hover{
+    margin-left: -7px;
+    margin-right: -7px;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+.search-active{
+    margin-left: -7px;
+    margin-right: -7px;
+    background-color: #eeeeee;
+}
+.search-item-avatar{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.search-item-avatar-suggest{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.search-item-info{
+    padding: 10px 0px;
+    .full_name{
+        font-size: 18px;
+        color: #5bbbae;
+        font-weight: bolder;
+        display: flex;
+        text-shadow: 1px 1px rgb(235, 235, 235);
+    }
+    .full_name a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .address{
+        font-size: 13px;
+        font-weight: lighter;
+        display: flex;
+        font-style: oblique;
+    }
+    .job_title{
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        margin-top: 12px;
+    }
+}
+.search-item-info-suggest{
+    padding: 5px 0px;
+    .full_name{
+        font-size: 16px;
+        color: #5bbbae;
+        font-weight: bolder;
+        display: flex;
+        text-shadow: 1px 1px rgb(240, 240, 240);
+    }
+    .full_name a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .address{
+        font-size: 12px;
+        font-weight: lighter;
+        display: flex;
+        font-style: oblique;
+    }
+    .job_title{
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: -3px;
+    }
+}

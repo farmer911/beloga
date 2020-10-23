@@ -1,0 +1,19 @@
+.avatar-wrapper {
+  height: 150px;
+  text-align: center;
+}
+.span-age {
+  padding-left: 10px;
+  font-size: 11px;
+  color: #f00;
+}
+.input-age {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  .react-datepicker-wrapper {
+    width: 100%;
+    display: block;
+  }
+}

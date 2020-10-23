@@ -1,0 +1,41 @@
+.small-text {
+  font-size: 12px;
+}
+
+.skill-item {
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  // &:last-child {
+  //   margin-bottom: 0;
+  // }
+}
+
+.skill-image {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.link {
+  font-weight: normal;
+  text-decoration: underline;
+}
+.languageLevel {
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #5bbbae;
+  &.active {
+    background-color: #5bbbae;
+  }
+}
+.skillLevel {
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+  background-color: rgba(216, 216, 216, 0.3);
+  height: 11px;
+}

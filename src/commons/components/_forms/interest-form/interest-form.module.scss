@@ -1,0 +1,75 @@
+.save-button {
+  margin-top: 100px;
+  text-align: right;
+}
+.error-group {
+  padding: 0;
+}
+.about-title {
+  font-family: 'Avenir-Heavy';
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #515151;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+.check-button{
+  color: #39a0e8;
+  margin-left: 10px;
+  padding-top: 3px;
+  font-size: 25px;
+  cursor: pointer;
+  .tooltiptext {
+    visibility: hidden;
+    background-color: #EBE9FC;
+    color: #252525;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    position: absolute;
+    z-index: 1;
+    font-size: 13px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: -35px;
+  }
+}
+.cancle-button{
+  color: red;
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 25px;
+  cursor: pointer;
+  .tooltiptext {
+    visibility: hidden;
+    background-color: #EBE9FC;
+    color: #252525;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    position: absolute;
+    z-index: 1;
+    font-size: 13px;
+    width: 50px;
+  }
+  
+}
+.cancle-button:hover .tooltiptext {
+  visibility: visible;
+}
+.check-button:hover .tooltiptext {
+  visibility: visible;
+}
+@media (max-width: 767px){
+  .cancle-button:hover .tooltiptext {
+    visibility: hidden;
+  }
+  .check-button:hover .tooltiptext {
+    visibility: hidden;
+  }
+}

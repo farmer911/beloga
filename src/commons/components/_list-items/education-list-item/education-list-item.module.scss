@@ -1,0 +1,49 @@
+.education-item {
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  line-height: 1.4;
+  display: flex;
+  justify-content: space-between;
+  .line-title {
+    width: 100%;
+  }
+  .icon-edit {
+    margin-left: 20px;
+  }
+  .icon-remove {
+    margin-left: 10px;
+  }
+}
+
+.link {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.description {
+  line-height: 1.4;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.icon-wrapper {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.margin-left {
+  margin-left: 5px;
+}
+
+.image-style {
+  height: 70px;
+  width: 70px;
+}

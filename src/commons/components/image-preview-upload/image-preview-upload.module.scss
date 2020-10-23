@@ -1,0 +1,23 @@
+@import '../../../styles/variables.module.scss';
+
+.hide-input {
+  display: none;
+}
+
+.image {
+  width: 150px;
+  height: auto;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.icon {
+  font-size: 50px;
+  color: $main-color;
+  &:hover {
+    cursor: pointer;
+    color: $main-color-hover;
+  }
+  transition: 0.3s;
+}

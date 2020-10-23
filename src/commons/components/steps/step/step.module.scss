@@ -1,0 +1,177 @@
+@import '../../../../styles/variables.module.scss';
+
+/*! -- Stack Wizard -- */
+.wizard {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.wizard.active {
+  opacity: 1;
+}
+
+.step.current a,
+.step.current a:hover,
+.step.current a:active {
+  background: none;
+  color: #ffffff;
+}
+
+.step a {
+  position: relative;
+}
+
+.step a:before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  border: 1px solid #aaaaaa;
+  display: block;
+  top: 0;
+  transition: all 0.2s ease;
+}
+
+.step a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  height: 2px;
+  background-color: #eee;
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+.step:first-child a:after {
+  width: 50%;
+  left: 50%;
+}
+
+.step:last-child a:after {
+  width: 50%;
+}
+
+.step.current a:after{
+  background-color: $main-color;
+}
+.step.current a:before {
+  border: 1px solid #55b5a7;
+  background: #55b5a7;
+}
+.step a,
+.step a:hover {
+  padding-bottom: 2.78571429em;
+}
+
+.step.done a,
+.step.done a:hover,
+.step.done a:active,
+.step.disabled a,
+.step.disabled a:hover,
+.step.disabled a:active {
+  background: none;
+  color: #252525;
+}
+
+.step a,
+.step a:hover,
+.step a:active {
+  margin: 0;
+}
+
+.step {
+  float: none;
+  display: inline-block;
+}
+
+.step .number {
+  font-size: 1em;
+}
+
+@media all and (max-width: 767px) {
+  .step .number {
+    display: block;
+  }
+}
+
+/*
+    Common 
+*/
+
+// .step a {
+//   outline: 0;
+// }
+
+.step {
+  display: block;
+  padding: 0;
+}
+
+/* Accessibility */
+.step .current-info {
+  position: absolute;
+  left: -999em;
+}
+
+/*
+    Wizard
+*/
+
+.step {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.step {
+  display: inline;
+  float: left;
+  width: 30%;
+}
+
+.step .number {
+  font-size: 1.429em;
+}
+
+.step {
+  float: left;
+}
+
+.step a,
+.step a:hover,
+.step a:active {
+  display: block;
+  width: auto;
+  padding: 1em 1em;
+  text-decoration: none;
+  line-height: 4;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.step.disabled a,
+.step.disabled a:hover,
+.step.disabled a:active {
+  background: #eee;
+  color: #aaa;
+  cursor: default;
+}
+
+.step.done a,
+.step.done a:hover,
+.step.done a:active {
+  background: #9dc8e2;
+  color: #fff;
+}
+
+.step.error a,
+.step.error a:hover,
+.step.error a:active {
+  background: #ff3111;
+  color: #fff;
+}

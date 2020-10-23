@@ -1,0 +1,10 @@
+.small-text {
+    font-size: 12px;
+}
+
+.education-item {
+    margin-bottom: 10px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+
+  img {
+    object-fit: cover;
+  }
+
+  &:hover img {
+    -webkit-filter: blur(1.7px);
+    filter: blur(1.7px);
+    cursor: pointer;
+  }
+
+  i {
+    display: none;
+    cursor: pointer;
+  }
+
+  &:hover i {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    line-height: 0;
+  }
+}
+.public-image {
+  cursor: unset !important;
+  &:hover {
+    cursor: unset !important;
+  }
+}

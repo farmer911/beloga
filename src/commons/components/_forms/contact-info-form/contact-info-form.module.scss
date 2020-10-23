@@ -1,0 +1,22 @@
+@import '../../../../styles/variables.module.scss';
+.link-color {
+  color: $main-color;
+  &:hover {
+    color: $main-color-hover;
+  }
+  transition: 0.3s;
+}
+
+.link {
+  color: $main-color;
+  cursor: pointer;
+  &:hover {
+    color: $main-color-hover;
+    text-decoration: underline;
+  }
+  transition: 0.3s;
+}
+
+.margin-button {
+  margin-top: 15px;
+}

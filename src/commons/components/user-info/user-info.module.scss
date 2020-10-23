@@ -1,0 +1,54 @@
+.round-image {
+  border-radius: 50%;
+  max-height: inherit !important;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.user-info-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px !important;
+}
+
+.text {
+  font-size: 11px;
+  line-height: 1.1;
+}
+
+.user-status {
+  background-color: #31639c !important;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  color: red;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+.place-work {
+  line-height: 20px;
+}
+.status-user {
+  label {
+    margin-right: 20px;
+  }
+  p {
+    display: inline;
+  }
+}
+.confirm-seeking-modal p {
+  color: #666666 !important;
+}
+.seeking-label {
+  font-family: 'Avenir-Roman';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}

@@ -1,0 +1,31 @@
+.icon-upload {
+    font-size: 50px;
+    color: #bbb;
+}
+
+.text-upload {
+    font-size: 1em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.border-contain {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px dashed #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.none-focus {
+    &:focus {
+        outline: none !important;
+    }
+}
+
+p {
+    margin: 0;
+}

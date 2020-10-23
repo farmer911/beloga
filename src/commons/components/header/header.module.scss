@@ -1,0 +1,38 @@
+.logo {
+  width: 125px;
+  height: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.nav {
+  z-index: 998 !important;
+}
+
+.dropdown-menu {
+  padding: 0 !important;
+  left: auto !important;
+  right: 10px !important;
+  .li-username {
+    border-bottom: 1px solid #ccc;
+    a {
+      padding: 5px 12px !important;
+    }
+  }
+  .li-second {
+    padding-top: 10px !important;
+  }
+  li {
+    margin: 0 !important;
+    a {
+      font-weight: normal;
+      padding: 2px 12px !important;
+      cursor: pointer !important;
+    }
+    &:last-child {
+      padding-bottom: 10px !important;
+    }
+  }
+}

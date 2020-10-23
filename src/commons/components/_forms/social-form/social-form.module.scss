@@ -1,0 +1,41 @@
+.social-group {
+    justify-content: space-around;
+    display:flex;
+    height: 80px;
+    span{
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    cursor: pointer;
+    }
+    }
+    .facebook {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    color: #1d77ab;
+    margin: 0;
+    height: 0; 
+    border: 0;
+    cursor: pointer;
+    }
+    #twitter {
+    color: #1c9cec;
+    }
+    #linkedin {
+    color: #2766ac;
+    }
+    #instagram {
+    display: inline-block;
+    width: 52.5px;
+    height: 52.5px;
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 50px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }

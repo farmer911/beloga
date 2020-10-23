@@ -1,0 +1,44 @@
+@import '../../../../styles/variables.module.scss';
+
+.transition {
+  transition: 0.3s linear;
+}
+
+@media (max-width: $sm) {
+  .align-middle {
+    top: 100px;
+    left: 100px;
+    width: 250px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $sm) {
+  .align-middle {
+    top: 70px;
+    width: 300px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $md) {
+  .align-middle {
+    top: 70px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $lg) {
+  .align-middle {
+    top: 100px;
+    width: 400px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $xl) {
+  .align-middle {
+    top: 100px;
+    width: 400px;
+  }
+}

@@ -1,0 +1,25 @@
+.margin-top {
+  margin-top: 110px;
+}
+
+.modified-container {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-buttons-wrapper {
+  padding-bottom: 10px;
+}
+
+.listitem-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+

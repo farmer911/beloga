@@ -1,0 +1,16 @@
+.step-content {
+  margin-top: 50px;
+  border: 1px solid #ececec;
+  padding: 50px;
+  border-radius: 5px;
+}
+@media (max-width: 767px){
+  .step-content {
+    padding: 10px;
+  }
+}
+
+.step-button {
+  margin: 50px 0;
+  text-align: center;
+}

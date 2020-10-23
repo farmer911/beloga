@@ -1,0 +1,52 @@
+.margin-top {
+  margin-top: 1.85714286em;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.email-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: max-content;
+  span {
+    width: 100%;
+  }
+  a {
+    margin-left: 10px;
+  }
+}
+
+.input-email {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+.input-age {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.span-age {
+  padding-left: 10px;
+  font-size: 11px;
+  color: #f00;
+}
+.form-email-disable {
+  -webkit-appearance: none;
+  background: #fcfcfc;
+  padding: 0.46428571em;
+  border-radius: 6px;
+  border: 1px solid #ececec;
+}
+
+@media (max-width: 768px) {
+  .padding-side {
+    padding: 0 13px;
+  }
+}

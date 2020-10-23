@@ -1,0 +1,13 @@
+#custom-search-form {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#custom-search-form .search-query {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}

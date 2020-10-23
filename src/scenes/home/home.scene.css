@@ -1,0 +1,10 @@
+@media only screen and (min-width: 992px)  {
+    .content-box-tt {
+        min-height: 150px !important;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 576px)  {
+    .content-box-tt {
+        min-height: 240px !important;
+    }
+}

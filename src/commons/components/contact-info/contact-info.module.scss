@@ -1,0 +1,67 @@
+@import '../../../styles/variables.module.scss';
+.contact-info-label-container{
+  display: flex;
+  justify-content: space-between;
+}
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.form-width {
+  min-width: 280px;
+  max-width: auto;
+}
+
+.icon-style {
+  font-size: 20px;
+}
+
+.link-wrapper {
+  margin-top: 10px;
+}
+
+.social-link {
+  text-decoration: none !important;
+  padding: 0 10px 0 10px;
+  transition: 0.3s;
+  font-size: 16px;
+  &:hover {
+    color: $main-color-hover;
+  }
+  &:first-child {
+    padding: 0 10px 0 0;
+  }
+  @media (min-width: 280px) and (max-width: 575px) {
+    font-size: 12px;
+  }
+}
+
+.title-weight {
+  font-weight: 600;
+}
+
+.hr-color {
+  border-color: #999;
+}
+
+.link-color {
+  &:hover {
+    color: $main-color-hover;
+  }
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+  @media (min-width: 280px) and (max-width: 575px) {
+    font-size: 12px;
+  }
+}
+
+.icon-edit {
+  font-size: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  @media (min-width: 320px) and (max-width: 575px) {
+    font-size: 14px;
+  }
+}

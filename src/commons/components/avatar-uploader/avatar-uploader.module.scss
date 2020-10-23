@@ -1,0 +1,22 @@
+@import '../../../styles/variables.module.scss';
+
+.avatar-wrapper {
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+.preview-wrapper {
+  vertical-align: middle;
+}
+
+.headline {
+  text-align: center;
+  color: #252525 !important;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 20px !important;
+}

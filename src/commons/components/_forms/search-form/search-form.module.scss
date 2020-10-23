@@ -1,0 +1,36 @@
+.rectangle-4 {
+  margin-top: 12px;
+  max-width: 340px;
+  width: 100%;
+  height: 35px;
+  border-radius: 18px;
+  border: solid 0.5px #bebebe;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.search_icon{
+  width: 18.7px;
+  height: 18.7px;
+  object-fit: contain;
+  margin: 7px 0px 0px 10px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .rectangle-4 {
+    margin-top: 12px;
+    max-width: 250px;
+    width: 250px;
+    height: 35px;
+    border-radius: 18px;
+    border: solid 0.5px #bebebe;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+  }
+  .search_icon{
+    width: 18.7px;
+    height: 18.7px;
+    object-fit: contain;
+    margin: 7px 0px 0px 10px;
+  }
+}

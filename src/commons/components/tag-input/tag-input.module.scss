@@ -1,0 +1,62 @@
+@import '../../../styles//variables.module.scss';
+.input-container-search {
+  input {
+    padding-left: 10px !important;
+    height: 33px !important;
+  }
+}
+.input-container {
+  position: relative;
+  width: 90%;
+  input {
+    padding-left: 35px !important;
+    height: 33px !important;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.input-wrapper {
+  &:hover {
+    background-color: #2684c5;
+    color: white;
+    .input {
+      border-bottom: 1px solid #2684c5;
+    }
+  }
+}
+
+.icon-interest {
+  width: 40px;
+  text-align: center;
+  padding-left: 5px;
+  img {
+    width: 23px;
+    height: 23px;
+    object-fit: cover;
+  }
+}
+.input {
+  cursor: pointer;
+  border-bottom: solid 1px #e5e5e5;
+  margin: 0 10px;
+  padding: 7px 0;
+  width: 100%;
+  &:hover {
+    border: none;
+  }
+}
+
+.chip-wrapper {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+}

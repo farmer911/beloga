@@ -1,0 +1,24 @@
+.pagination{
+    margin: 0 auto !important;
+    float: right;
+    margin-bottom: 10px !important;
+}
+.search-title-result{
+    padding: 18px;
+}
+.search-list-container{
+    padding: 10px;
+}
+li{
+    a{
+        font-weight: lighter !important;
+        font-size: 13px;
+    }
+    margin: 5px;
+}
+li.active{
+    a{
+        font-weight: bolder !important;
+        font-size: 15px;
+    }
+}
